@@ -2,7 +2,7 @@
 
 namespace Bavix\CupKit\Storage;
 
-use Bavix\CupKit\Providers\CupKitServiceProvider;
+use Bavix\CupKit\CupKitServiceProvider;
 use Illuminate\Foundation\Application;
 use League\Flysystem\Adapter\AbstractAdapter;
 use League\Flysystem\Config;

@@ -3,6 +3,7 @@
 namespace Bavix\CupKit\Commands;
 
 use Bavix\CupKit\Client;
+use Bavix\CupKit\CupKitServiceProvider;
 use Illuminate\Console\Command;
 
 class CDNCommand extends Command
@@ -32,7 +33,7 @@ class CDNCommand extends Command
         /**
          * @var Client $cup
          */
-        $cup = app(Client::class);
+        $cup = app(CupKitServiceProvider::SINGLETON_CLIENT);
         foreach (config('corundum.buckets', []) as $bucketName => $views) {
             try {
                 $cup->createBucket($bucketName);

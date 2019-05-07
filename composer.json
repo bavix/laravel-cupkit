@@ -28,7 +28,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Bavix\\CupKit\\Providers\\CupKitServiceProvider"
+        "Bavix\\CupKit\\CupKitServiceProvider"
       ]
     }
   }

@@ -1,11 +1,8 @@
 <?php
 
-namespace Bavix\CupKit\Providers;
+namespace Bavix\CupKit;
 
-use Bavix\CupKit\Client;
-use Bavix\CupKit\ClientCredentials;
 use Bavix\CupKit\Commands\CDNCommand;
-use Bavix\CupKit\Identity;
 use Bavix\CupKit\Storage\CupAdapter;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\ServiceProvider;
