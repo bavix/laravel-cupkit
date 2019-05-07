@@ -16,7 +16,7 @@ Laravel CupKit - Easy work with Corundum API.
 * **Vendor**: bavix
 * **Package**: Laravel CupKit
 * **Version**: [![Latest Stable Version](https://poser.pugx.org/bavix/laravel-cupkit/v/stable)](https://packagist.org/packages/bavix/laravel-cupkit)
-* **Laravel Version**: 5.5, 5.6, 5.7, 5.8
+* **Laravel Version**: `5.5`, `5.6`, `5.7`, `5.8`
 * **PHP Version**: 7.1+ 
 * **[Composer](https://getcomposer.org/):** `composer require bavix/laravel-cupkit`
 
