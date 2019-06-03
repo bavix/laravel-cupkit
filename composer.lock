@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8ed87e13d1b5a9c9160d42545e20bccc",
+    "content-hash": "b25789f2f66bc03c962207d1e243a033",
     "packages": [
         {
             "name": "bavix/cupkit",
-            "version": "0.1.4",
+            "version": "0.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bavix/cupkit.git",
-                "reference": "3193b0957615a3b019c9ed97fe3c2ab9809c83e6"
+                "reference": "89a42b963441858d14fbb41555d8d5de3397c65d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bavix/cupkit/zipball/3193b0957615a3b019c9ed97fe3c2ab9809c83e6",
-                "reference": "3193b0957615a3b019c9ed97fe3c2ab9809c83e6",
+                "url": "https://api.github.com/repos/bavix/cupkit/zipball/89a42b963441858d14fbb41555d8d5de3397c65d",
+                "reference": "89a42b963441858d14fbb41555d8d5de3397c65d",
                 "shasum": ""
             },
             "require": {
@@ -42,7 +42,7 @@
                 }
             ],
             "description": "A tool for fast loading cdn corundum.",
-            "time": "2019-05-07T07:57:53+00:00"
+            "time": "2019-05-07T10:24:33+00:00"
         },
         {
             "name": "doctrine/inflector",
